@@ -15,9 +15,10 @@ app = FastAPI(
 )
 
 origins = [
-  "https://fuzzymathpredictor.vercel.app/",
+  "https://fuzzymathpredictor.vercel.app",
   "https://fuzzymathpredictor-dr1wm1rdd-francis-s-projects-c6c15a62.vercel.app",
   "http://localhost:5173",
+  "*",
 ]
 
 
